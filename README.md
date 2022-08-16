@@ -29,10 +29,13 @@ pip install -r requirments.txt
 To Add files to git
 ...
 git add .
+
 or
+
 ...
 
 git add <filename>
+
 ...
 
 > Note: To ignore file or folder from git we can write name/folder in .gitignore file
@@ -41,9 +44,11 @@ To check the git status
 ...
 
 git status
+
 ....
 
 To check all versions maintained by git
+
 ...
 
 git log
@@ -51,13 +56,24 @@ git log
 ....
 
 To create version/commit all changes to git
+
 ...
 
 git commit -m "message"
 
 ...
 
-to send version/message to git
+To send version/message to git
 ...
+
 git push origin main
+
 ...
+
+To Check remote url
+...
+
+git remote -v
+
+...
+
