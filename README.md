@@ -94,3 +94,42 @@ To set up CI/CD pipeline in heroku we need 3 information
 1. HEROKU_EMAIL = saritha.jce@gmail.com
 2. HEROKU_API_KEY = 35530aa1-7faa-4c70-9fe5-3991c5d34a29
 3. HEROKU_APP_NAME=  flight-fare-prediction-5
+
+
+
+Build Docker Image
+...
+
+docker build -t <image_name>: <tagname> .
+
+> Note:  Image name for docker must be lowercase
+
+To list docker image
+
+...
+
+docker images
+
+...
+
+Run docker image
+
+...
+
+docker run -p 5000:5000 -e PORT=5000 85fa9b402bb1
+```
+
+To check running container in docker
+```
+docker ps
+```
+
+To stop docker conatiner
+```
+docker stop <container_id>
+```
+
+
+
+```
+python setup.py install
